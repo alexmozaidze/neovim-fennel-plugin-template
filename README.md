@@ -9,7 +9,7 @@ A minimalist and practical NeoVim Fennel plugin template.
 
 ## Building
 
-> **Warn**
+> **Warning**
 > The Makefile uses POSIX commands, so it doesn't work on Windows. I can't use Windows due to old hardware, so a contribution would be very much welcome! ^^
 
 Single Makefile is used to build the plugin. It's easy to read if you know the basics of Make.
