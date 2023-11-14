@@ -65,9 +65,6 @@ Look into `vim.tbl_*` functions and `vim.iter` (NeoVim >=0.10), they're pretty u
 
 <details><summary>Checking if at least one buffer is modified</summary>
 
-> [!NOTE]  
-> `vim.iter` is only available in NeoVim >=0.10
-
 ```fnl
 (let [buffers (vim.api.nvim_list_bufs)
       buffers-iter (vim.iter buffers)
