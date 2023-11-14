@@ -9,7 +9,7 @@ A minimalist and practical NeoVim Fennel plugin template.
 
 ## Building
 
-> **Warning**
+> [!WARNING]  
 > The Makefile uses POSIX commands, so it doesn't work on Windows. I can't use Windows due to old hardware, so a contribution would be very much welcome! ^^
 
 Single Makefile is used to build the plugin. It's easy to read if you know the basics of Make.
@@ -65,7 +65,7 @@ Look into `vim.tbl_*` functions and `vim.iter` (NeoVim >=0.10), they're pretty u
 
 <details><summary>Checking if at least one buffer is modified</summary>
 
-> **Note**
+> [!NOTE]  
 > `vim.iter` is only available in NeoVim >=0.10
 
 ```fnl
