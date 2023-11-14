@@ -2,9 +2,10 @@
 
 # NeoVim Fennel Plugin Template
 
-</div>
 
 A minimalist and practical NeoVim Fennel plugin template.
+
+</div>
 
 ## Building
 
