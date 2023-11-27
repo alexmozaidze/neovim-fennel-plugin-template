@@ -9,23 +9,21 @@ A minimalist and practical NeoVim Fennel plugin template.
 
 ## Building
 
-> [!WARNING]  
-> The Makefile uses POSIX commands, so it doesn't work on Windows. I can't use Windows due to old hardware, so a contribution would be very much welcome! ^^
+> [!WARNING]\
+> The Makefile and scripts use POSIX commands, so it doesn't work on Windows. I don't (or, rather, can't) use Windows, so a contribution on that regard would be very much welcome! ^^
 
 Single Makefile is used to build the plugin. It's easy to read if you know the basics of Make.
 
-Here's how you build your plugin:
-```
+Here's how you build the plugin:
+```sh
 make
-```
 
-Simple, eh?
+# or
+
+make clean build
+```
 
 ## Project structure
-
-Code speaks clearer than a README.
-
-I encourage you to use this template and experiment. All files are bare-bones simple.
 
 ### `fnl/`
 
@@ -34,6 +32,14 @@ This is where you put all your Fennel code. When you run `make`, it compiles eve
 ### `macros/`
 
 All your macro files go into this folder.
+
+### `scripts/`
+
+All the wonderful scripts you'd like to reuse.
+
+### `deps/`
+
+Project dependencies. This is mainly reserved for the fennel executable and nothing else, but you may repurpose it.
 
 ## Unsupported
 
