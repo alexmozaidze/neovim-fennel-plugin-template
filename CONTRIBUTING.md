@@ -15,7 +15,7 @@ Here's an example of how to load your plugin instance locally using Lazy:
 require "lazy".setup {
    {
       "you/your-plugin.nvim",
-      dir = "path/to/your/palenight.nvim", -- Change this to path to your plugin
+      dir = "path/to/your/your-plugin.nvim", -- Change this to path to your plugin
    },
 
    -- other plugins...
