@@ -108,11 +108,7 @@ M
 
 ## Most important part...
 
-<div align="center">
-
 **Don't be afraid to ask!**
-
-</div>
 
 You can always ask about anything in [discussions][discussions], propose a change before starting to work on it, or just to get help.
 
